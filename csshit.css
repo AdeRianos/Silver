@@ -1,0 +1,67 @@
+/* Background gradient for the title */
+h1 {
+    background: linear-gradient(to bottom, #ff4e50, #f9d423);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px #ccc;
+  }
+  
+  /* Background and border for the subtitles */
+  h2 {
+    background-color: #333;
+    border: 3px solid #ff4e50;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+  }
+  
+  /* Styling for paragraphs */
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  /* Styling for unordered lists */
+  ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for the "Learn More" button */
+  .btn {
+    background-color: #333;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Adding a box shadow to the container */
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
